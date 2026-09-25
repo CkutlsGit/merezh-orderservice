@@ -1,9 +1,7 @@
 package ru.merezh.orderservice.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import ru.merezh.orderservice.entity.enums.OrderStatus;
 
 import java.math.BigDecimal;
@@ -12,7 +10,8 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
-@Data
+@Getter
+@Setter
 @Table(name = "orders")
 @AllArgsConstructor
 @NoArgsConstructor
