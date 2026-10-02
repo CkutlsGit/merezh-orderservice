@@ -2,7 +2,7 @@
 
 Microservice responsible for creating and managing orders.
 
-📖 In Russian: [перевод на русский](#)
+📖 In Russian: [перевод на русский](https://github.com/CkutlsGit/merezh-orderservice/blob/main/README.ru.md)
 
 ## 📋 Overview
 
